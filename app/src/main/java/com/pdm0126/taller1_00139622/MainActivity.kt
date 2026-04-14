@@ -339,10 +339,10 @@ fun ResultScreen(
     val textLight = colorResource(R.color.text_light)
 
     val (emoji, message) = when (score) {
-        total     -> "🏆" to "¡Perfecto! Eres todo un experto en Android."
-        total - 1 -> "🥈" to "¡Muy bien! Conoces bastante sobre Android."
-        1         -> "📚" to "Vas bien, pero todavía hay mucho por aprender."
-        else      -> "😅" to "Necesitas estudiar más. ¡Sigue intentándolo!"
+        total     -> "🏆" to "¡Perfecto! Ya eres todo un experto en Android, pero siempre puedes jugar"
+        total - 1 -> "🥈" to "¡Muy bien! Conoces bastante sobre Android, sigue aprendiendo."
+        1         -> "📚" to "Vas bien, pero todavía hay mucho por aprender sobre Android."
+        else      -> "😅" to "No te preocupes. ¡Sigue intentándolo! Te diviertes mientras aprendes"
     }
 
     Box(
