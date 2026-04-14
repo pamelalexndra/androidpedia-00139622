@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="android_green">#3DDC84</color>
+    <color name="android_dark">#0D1B2A</color>
+    <color name="card_bg">#1A2C3D</color>
+    <color name="correct_color">#2E7D32</color>
+    <color name="incorrect_color">#C62828</color>
+    <color name="neutral_color">#1E3A5F</color>
+    <color name="text_light">#E8F5E9</color>
+    <color name="fun_fact_correct">#1B5E20</color>
+    <color name="fun_fact_incorrect">#4A0000</color>
+    <color name="fun_fact_incorrect_text">#EF9A9A</color>
+</resources>
